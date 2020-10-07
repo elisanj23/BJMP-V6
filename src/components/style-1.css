@@ -1,0 +1,241 @@
+/* .MuiTypography-subtitle2 {
+  width: 3% !important;
+} */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.logo-image {
+  width: 40px !important;
+  height: auto !important;
+}
+
+.cardImage {
+  width: '60%' !important;
+}
+
+@media (max-width: 500px) {
+  .cardImage {
+    width: 0%;
+    display: none;
+  }
+}
+.MuiButtonBase-root.MuiFab-root.MuiFab-sizeSmall {
+  margin-left: auto;
+}
+
+/* .MuiChip-colorPrimary,
+.MuiFab-primary {
+  color: #fff;
+  background-color: #212529 !important;
+} */
+/* .makeStyles-root-200 {
+ 
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+} */
+
+.sticky-box-shadow {
+  /* display: inline-block !important; */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.MuiOutlinedInput-input.MuiInputBase-input {
+  border-color: black;
+}
+
+/*
+.MuiTypography-root.MuiCardHeader-title.MuiTypography-h5.MuiTypography-displayBlock{
+  font-size: 1rem;
+}*/
+/*
+.box-shadow{*/
+/*position: relative;*/
+  /*display: inline-block;*/
+ 
+  /*background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+.*//*box-shadow::after {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)!important;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}*/
+
+.box-shadow:hover {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1.005, 1.005);
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3)!important;
+}
+
+/*.box-shadow:hover::after {
+    opacity: 1;
+}
+*/
+
+.MuiPaper-root.MuiCard-root.box-shadow.MuiPaper-elevation1.MuiPaper-rounded{
+  margin-bottom: 20px;
+}
+
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg {
+    height: 30px;
+    width: 60px;
+}
+
+
+.image-gallery-icon {
+   color: rgb(51, 51, 51);
+
+  }
+
+  .image-gallery-content {
+   
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.image-gallery-bullets {
+    bottom: -30px;
+   
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+   
+    /*padding: 4px;*/
+   /*background: rgb(51, 51, 51);*/
+   box-shadow: none;
+
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: rgb(204, 204, 204);
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.image-gallery-bullets .image-gallery-bullet:focus,
+.image-gallery-bullets .image-gallery-bullet:hover
+ {
+    background: rgb(51, 51, 51);
+    transform: scale(1);
+}
+
+.image-gallery-bullets .image-gallery-bullet.active {
+     background: rgb(51, 51, 51);
+    transform: scale(1);
+}
+@media (min-width: 768px)
+.image-gallery-icon:hover {
+    color: rgb(51, 51, 51)  !important;
+}
+
+
+.image-gallery-icon:hover {
+    color: rgb(51, 51, 51) !important;
+}
+.image-gallery-icon:focus {
+    outline: none !important;
+      color: rgb(51, 51, 51);
+}
+
+
+.jss840 {
+    border-radius: 6px;
+}
+
+.jss842 {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 75%;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.MuiCardMedia-root-662 {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.MuiPaper-elevation1-638 {
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.MuiPaper-rounded-635 {
+    border-radius: 4px;
+}
+
+.MuiPaper-root-634 {
+    color: rgba(0, 0, 0, 0.87);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #fff;
+}
+
+.jss839 {
+    margin: auto;
+    padding: 12px;
+    max-width: 643px;
+    border-radius: 12px;
+}
+
+.jss846 {
+    box-shadow: rgba(34, 35, 58, 0.2) 0px 14px 80px;
+    transition: all 0.3s ease 0s;
+}
+
+.MuiCard-root-633 {
+    overflow: hidden;
+}
+
+.MuiCardContent-root-665:last-child {
+    padding-bottom: 24px;
+}
+
+.MuiCardContent-root-665 {
+    padding: 16px;
+}
+
+.jss843 {
+    color: #9e9e9e;
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.jss666 {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.MuiTypography-body1-594 {
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+
+.MuiTypography-root-592 {
+    margin: 0;
+}
+
+.MuiCardMedia-root-662 .jss840 .jss841 .jss842{
+  background-image: url("../images/undraw_profile_pic_ic5t.svg");
+}

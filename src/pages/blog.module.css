@@ -3,8 +3,12 @@
   justify-content: center;
   align-items: center;
   height: 61.8vh;
-  max-height: 400px;
-  background: #e1e1e1;
+  max-height: 150px;
+
+  background-image: url('../images/undraw_content_vbqo.svg');
   font-size: 2em;
   overflow: hidden;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }

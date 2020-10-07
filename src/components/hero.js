@@ -1,19 +1,38 @@
 import React from 'react'
-import Img from 'gatsby-image'
 
-import styles from './hero.module.css'
-
-export default ({ data }) => (
-  <div className={styles.hero}>
-    <Img
-      className={styles.heroImage}
-      alt={data.name}
-      fluid={data.heroImage.fluid}
-    />
-    <div className={styles.heroDetails}>
-      <h3 className={styles.heroHeadline}>{data.name}</h3>
-      <p className={styles.heroTitle}>{data.title}</p>
-      <p>{data.shortBio.shortBio}</p>
+export default ({}) => (
+  <div className="page-home">
+    <div className="intro pb-3">
+      <div className="container">
+        <h1>
+          BJMPSLAI - NSSLA <br /> for the BJMP.
+        </h1>
+        <p>
+          Its main objective is to provide the BJMP personnel, uniformed and
+          non-uniformed, investment opportunities and immediate access to funds
+        </p>
+      </div>
+    </div>
+    <div className="container pt-2">
+      <div className="call">
+        <div className="call-box-top">
+          <div className="call-phone">
+            <strong>Phone: </strong>
+            <a href="tel:799 2576 - (0917) 858 7163">
+              799 2576 - (0917) 858 7163
+            </a>
+          </div>
+          <div className="call-email">
+            <strong>Email: </strong>
+            <a href="mailto: bjmpslai@yahoo.com.ph">bjmpslai@yahoo.com.ph</a>
+          </div>
+        </div>
+        <div className="call-box-bottom">
+          <a href="/contact-us" className="button">
+            Contact Us
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 )
