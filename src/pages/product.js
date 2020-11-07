@@ -134,6 +134,34 @@ export default function Product() {
                 </Typography>
               </ExpansionPanelDetails>
             </ExpansionPanel>
+            <ExpansionPanel
+              expanded={expanded === 'panel6'}
+              onChange={handleChange('panel6')}
+            >
+              <ExpansionPanelSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel4bh-content"
+                id="panel4bh-header"
+              >
+                <Typography className={classes.heading}>
+                  Loan Amortization Schedule{' '}
+                </Typography>
+                <Typography className={classes.secondaryHeading}>
+                  Loan Amortization Schedule{' '}
+                </Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails>
+                <Typography>
+                
+                        <ul>
+                          <li><a href="https://assets.ctfassets.net/sbpgtx1gm6ht/2gKdW55VAFP9CfU7NaPzDM/2c03815f9a95a30084b217961b7cb45f/AMORTIZATION-SCHEDULE-10.525.pdf">Loan Amortization Schedule PDF</a></li>
+       
+                        </ul>
+
+                </Typography>
+              </ExpansionPanelDetails>
+            </ExpansionPanel>
+           
           </div>
         </div>
       </div>

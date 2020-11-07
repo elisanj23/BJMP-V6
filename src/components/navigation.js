@@ -7,14 +7,16 @@ export default class Example extends Component {
     return (
       <div className="header">
 
-
+      
         <div className="container">
           <div className="logo">
             <a aria-current="page" className="" href="/">
               <img alt="Figurit Homepage" src={logo} className="logo-image" />
-              {/* BJMPASLAI */}
+             
             </a>
+           
           </div>
+        
           <div className="logo-mobile">
             BJMPSLAI
             <a aria-current="page" className="" href="/"></a>

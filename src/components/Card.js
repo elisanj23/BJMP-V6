@@ -36,7 +36,7 @@ export default function MediaControlCard() {
           <h2 className="title-3 text-dark ">
             Membership Application
           </h2>
-    <p > Quick Download TEST</p>
+    <p > Quick Download</p>
 
              <div className="MuiPaper-root-634 MuiCard-root-633 jss839 jss631 jss846 MuiPaper-elevation1-638 MuiPaper-rounded-635">
              <span className="MuiTypography-root-592 jss666 jss843 MuiTypography-body1-594">

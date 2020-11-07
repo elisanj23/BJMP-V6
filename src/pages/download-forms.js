@@ -27,6 +27,16 @@ class Downloadforms extends Component {
                   </tr>
                 </thead>
                 <tbody>
+                <tr>
+                    <td>
+                      <a href="https://assets.ctfassets.net/sbpgtx1gm6ht/2gKdW55VAFP9CfU7NaPzDM/2c03815f9a95a30084b217961b7cb45f/AMORTIZATION-SCHEDULE-10.525.pdf">
+                        Loan Amortization Schedule
+                      </a>
+                    </td>
+                    <td>PDF</td>
+                    <td>October 31. 2020</td>
+                    <td></td>
+                  </tr>
                   <tr>
                     <td>
                       <a href="https://drive.google.com/uc?export=download&id=1IsqTk05yUCq-U2Y8mh1qduzRh83vDy6G">
