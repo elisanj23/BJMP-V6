@@ -79,7 +79,7 @@ class RootIndex extends React.Component {
     return (
       <Layout location={this.props.location}>
         {/* Idont know why the scrolltip working but the good thing its no other effect to ether element except the border box of the navbar */}
-        <ScrollTop>bjmpslai</ScrollTop>
+        <ScrollTop>t</ScrollTop>
 
         <div className="sticky-box-shadow">
           <ScrollTop {...this.props}>
@@ -91,7 +91,7 @@ class RootIndex extends React.Component {
         <div style={{ background: '#fff' }}>
           <Helmet title={siteTitle} />
           <Hero />
-          <Gallery />
+          {/* <Gallery /> */}
           <div className="container">
             <div className="container pt-8 pt-md-10">
               <div className="row justify-content-start">

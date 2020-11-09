@@ -6,8 +6,6 @@ export default class Example extends Component {
   render() {
     return (
       <div className="header">
-
-      
         <div className="container">
           <div className="logo">
             <a aria-current="page" className="" href="/">
@@ -88,7 +86,7 @@ export default class Example extends Component {
                       <a href="/download-forms">Download Forms</a>
                     </li>
                     <li>
-                      <a href="/product">services</a>
+                      <a href="/product">Services</a>
                     </li>
                     <li>
                       <a href="/blog">News</a>
